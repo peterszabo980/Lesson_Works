@@ -162,6 +162,6 @@ public class LW_20220309 {
             index ++;
         }
         System.out.println("Összesen " + db + " db 1582-nél nagyobb eleme van a tömbnek.");
-
+        System.out.println("Vége a mai napnak.");
     }
 }
