@@ -114,7 +114,6 @@ public class LW_20220310_5_OMSZ {
         Volt olyan nap, amikor a hőmérséklet maximum -10 fok volt?
         Ne keressünk tovább, ha tudjuk a választ.
         Írjuk ki a választ.
-
         break; !!!
         */
         int nap = 0;
@@ -134,7 +133,6 @@ public class LW_20220310_5_OMSZ {
         Volt olyan nap, amikor a hőmérséklet legalább 40 fok volt?
         Ne keressünk tovább, ha tudjuk a választ.
         Írjuk ki a választ.
-
         break; !!!
          */
 
