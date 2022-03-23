@@ -1,0 +1,184 @@
+TIPPEK:
+Mindegyik mai feladat.
+
+1. oldjuk meg a számítást konstans értékekkel (ne legyen még beolvasás)
+2. valósítsuk meg a beolvasást
+(Nem kötelező)
+3. szervezzük ki metódusba
+4. hozzunk llétre 2 vagy több esetet
+
+felezési idős feladat.
+Vegyünk fel egy számlálót (eltelt felezési idők száma).
+Mi legyen a típus?
+Mi legyen a kezdeti érték?
+
+Használjunk while ciklust, mivel elképzelhető, hogy azonnal biztonságos a szoba.
+Mi a feltétel?
+
+Melyik 2 értéket kell frissíteni a cikluson belül?
+(1 felezési idő telt el egy iteráció alatt)
+
+Írjuk ki az eltelt felezési idők számát.
+----------------------------------------
+FELADATOK:
+
+----------------------------------------
+
+1. Irányítószám alapján város
+Készíts metódust, amelyik egy irányítószám alapján visszaadja egy város nevét.
+Ismert városok:
+- Budapest (1000)
+- Nyíregyháza (4400)
+- Sopron (9400)
+- Győr (9000)
+
+Ismeretlen város esetén null legyen a visszatérési érték.
+
+2. Készíts metódust, amelyik egy város neve alapján visszaadja az irányítószámát.
+Ismeretlen irányítószám esetén 0 legyen a visszatérési érték.
+
++ feladat
+Egy int változóba tároljuk el és írjuk ki Sopron és Budapest irányítószámának a különbségét.
+
+3. Készíts metódust, amelyik egy sugár (double) alapján visszaadja egy kör területét (double).
+pi * r * r
+Math.PI konstans (vagy 3.14)
+
++ Kérjük be 2 kerek erdő sugarát. :)
+(Beolvasás lehet int is).
+Írjuk ki, hogy összesen mennyi erdőnk van.
+
+4. Készíts metódust, amelyik visszaadja az órán alvók számát. :D
+A paraméterek:
+- résztvevők száma
+- feladattal végzettek száma
+- feladaton dolgozók száma
+
+Elvárt visszatérési érték:
+Azok száma, akik nem jelentkeztek.
+
+5. Készíts metódust, amelyik visszaadja az órán alvók számát. :D
+A paraméterek:
+- résztvevők száma
+- feladattal végzettek száma
+- feladaton dolgozók száma
+
+Elvárt visszatérési érték:
+Azok száma, akik nem jelentkeztek.
+Ha az alvók száma nagyobb, mint a részvevők számának a negyede,
+akkor a feladaton dolgozók felét (lefelé kerekítve) is adjuk hozzá az eredményhez.
+
+Pl. 20 résztvevő, 5-en végeztek, 5-en dolgoznak
+alvók száma: 10 + 5 / 2 = 12
+
+6. Írjunk egy pénztároló számító metódust, amelyik paraméterül kapja a következőket:
+- méret (double)
+- gombE (isSphere)
+
+visszaadja a pénztároló kapacitását
+gömb -> (4/3) * pi * méret * méret * méret
+nem gömb -> kocka -> méret * méret * méret
+double
+
+4 / 3 = 1 (ebben az esetben ezzel számol tovább)
+4.0 / 3 = 1.3333
+4 / 3.0 = 1.3333
+
++ feladat: Kérjük be 2 pénztároló adatait + írjuk ki a teljes kapacitást.
+
+7. Kérjük be az eltárolandó pénz térfogatát.
+(elég a main metódusban bekérni)
+Addig kérjük be pénztárolóknak az adatait (és építsük is meg őket), amíg nincs elég kapacitásunk az összes pénz eltárolásához.
+
+
+8. Felezési idő
+Készíts egy metódust, amelyik megadja, hogy hány (int) felezési idő elteltével csökken egy izotóp aktivitása egy megadott érték alá.
+A metódus kettő paramétert kap (double kezdeti aktivitás és double elvárt szint).
+
+Scannerrel olvassuk be az értékeket és írjuk ki az eltelt felezési idők számát.
++ Hozzunk létre egy halfLives nevű metódust a megfelelő paraméterekkel és visszatérési értékkel.
+A tényleges számítást a metóduson belül végezzük el.
+Az értékeket továbbra is a maint metódusban kérjük be, valamint a kiírás is a main metódusban történjen.
+
+<=20 (akkor biztonságos)
+200
+100
+50
+25
+12.5
+
+9. Baktériumok
+Készíts egy metódust, amelyik megadja, hogy mennyi idő alatt szaporodnak fel a kezdetben rendelkezésre álló baktériumok egy kísérlethez szükséges szintre.
+Paraméterek:
+- kezdeti száma
+- elvárt szám
+- duplázódási idő
+
+
+10. Gerjesztett rezgés
+Készíts 2 metódust.
+pozitiveSwing
+negativeSwing
+
+Paraméterként a következők kapják:
+- aktuális kilengés (5.0)
+- gerjesztés (szorzó, pl. -1.2)
+- pozitív esetében egy minimum (>= 20.0) érték, negatív esetében egy maximum (<= -50.0)
+
+Hány szorzásra van szükség (fél ciklus, mivel 2 szorzás egy teljes ciklus)
+hogy elérjük a szélsőértéket?
+
+pozitív esetben
+5.0
+-2.0
+20.0
+
+5.0
+-10.0
+20.0 itt leszakad, úgyhogy +2-re van szükség (nem szakadt le magától)
+
+- számláló létrehozása (típus, érték)?
+- meddig kell szoroznunk? (while ciklus, amíg a kilengés nagyobb / kisebb mint...)
+Mit hasonlítunk össze mivel?
+Mi a reláció? (<, <=, ==, !=, >, >=)
+- melyik változókat kell frissítenünk?
+
+ciklus után írjuk ki (adjuk vissza az értékeket)
+
++ bónusz
+a main végén legyen egy if-else, ami kiírja, hogy melyik irányban szakadt le a híd
+(melyik irányban van kevesebb szorzásra szükség?)
+
+
+11. Első n szám összege
+Írjuk ki az első n darab szám összegét.
+
+Vegyünk fel egy összeg változót.
+Típus? Érték?
+
+for ciklus (mettől meddig?)
+mihez adunk hozzá mit?
+
+Mit írjunk ki?
+
+Pl. darab = 3 -> 6 (1 + 2 + 3)
+darab = 5 = 15 (1 + 2 + 3 + 4 + 5)
+
+12. Tömb elemeinek az összege
+Írjunk metódust, amelyik visszaadja a paraméterül kapott tömb elemeinek az összegét.
+
+13. Visszaszámlálás
+Írjunk egy metódust, amelyik paraméterül kapja, hogy honnan indul a visszaszámlálás (pl. 10)
+és egy int[] tömbbel tér vissza, amiben benne vannak a helyes értékek.
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1 , 0]
+
+hozzunk létre egy tömböt (a méret egy változóban lesz).
+new int[x + 12];
+new int[meret];
+
+for ciklussal (honnan indulunk, meddig kell mennünk, hogyan változik meg az i értéke?)
+i--
+honnan: első érvényes (pl. 10)
+meddig: utolsó érvényes (0)
+
+adjuk vissza a tömböt

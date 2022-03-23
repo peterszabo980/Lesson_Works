@@ -1,4 +1,4 @@
-package hu.progmatic;
+package hu.progmatic.LW_20220309;
 
 import java.util.Scanner;
 

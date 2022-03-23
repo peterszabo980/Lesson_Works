@@ -1,0 +1,69 @@
+
+1.
+Írj metódust, amelyik bekéri a:
+- vezetéknevet
+- keresztnevet
+- nemet
+
+Scanner!
+Tisztelt Kovács József Úr!
+Tisztelt Nagy Anna Asszony!
+
+És kiírja a megfelelő köszöntést.
+2.
+Az előző metódus paraméterek alapján dolgozzon.
+
+Scanner + beolvasás a main metódusban
+adja át paraméterként a beolvasott értékeket
+
+3.
+Az előző metódus adja vissza a megfelelő köszöntést.
+Scanner + beolvasás a main metódusban
+return segítségével adja vissza a helyes köszönést
+írja ki a köszönést
+
++1
+kapott értékhez írjunk hozzá egy rövid levelet, majd írjuk ki.
+Tisztelt Kovács József Úr!
+
+Örömmel értesítjuk, hogy sikeresen teljesítette a feladatot.
+
+(4.
+Írj metódust, amelyik bekér három számot, és kiírja az összegüket.
+5.
+Az előző metódus paraméterek alapján dolgozzon.)
+6.
+Az előző metódus adja vissza a megfelelő összeget.
+
+(7.
+Írj metódust, amelyik bekér kettő számot és visszaadja a nagyobbat.
+8.
+Az előző metódus paraméterek alapján dolgozzon.)
+9.
+Az előző metódus adja vissza a megfelelő értéket.
+
+(10.
+Írj metódust, amelyik bekéri egy másodfokú függvény (a*x*x + b*x + c) együtthatóit (a, b, c),
+(a = 2, b = 5, c = -7)
+2*x*x + 5*x - 7
+
+x=0 -> 0 + 0 - 7 = -7
+x=1 -> 2 + 5 - 7 = 0
+
+valamint az x értékét, és kiírja függvény helyettesítési értékét.
+11.
+Az előző metódus paraméterek alapján dolgozzon.)
+12.
+Az előző metódus adja vissza a megfelelő értéket.
+
+13.
+Írj metódust, amelyik visszaadja egy tömbben eltárolt számok összegét.
+14.
+Írj metódust, amelyik visszaadja egy tömbben eltárolt számot abszolút értékének az összegét.
+
+[2, -3, 5] -> abs(2) + abs(-3) + abs(5) = 10
+
+15.
+Írj metódust, amelyik visszaadja egy szöveges tömbben tárolt "alma"-val kezdődő ételek számát.
+
+["körte", "alma", "almalé", "almatorta", "banán"] -> 3
