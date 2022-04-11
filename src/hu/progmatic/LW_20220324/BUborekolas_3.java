@@ -9,7 +9,7 @@ public class BUborekolas_3 {
         // i == korokSzama, rendezett tömb mérete
         // "idő", "verziók"
         for (int i = 0; i < homersekletek.length; i++) {
-            for (int j = 0; j < homersekletek.length - i -1; j++) {
+            for (int j = 0; j < homersekletek.length - j -1; j++) {
                 if (homersekletek[j] > homersekletek[j + 1]) {
                     int csere = homersekletek[j];
                     homersekletek[j] = homersekletek[j + 1];
