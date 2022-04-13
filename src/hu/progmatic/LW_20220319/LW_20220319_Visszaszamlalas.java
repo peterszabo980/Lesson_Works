@@ -6,7 +6,6 @@ public class LW_20220319_Visszaszamlalas {
         for (int i = numbers.length - 1; i >= 0 ; i--) {
 
             System.out.print(i);
-            //printWithDelays(" ", MILLISECONDS, 1000);
             Thread.sleep(700);
             System.out.print("\b\b\b\b");
 
