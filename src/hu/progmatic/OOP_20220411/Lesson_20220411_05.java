@@ -10,10 +10,15 @@ public class Lesson_20220411_05 {
         */
 
         SpaceShip[] spaceShips = {
+                //osztálypéldány készítése v. objektum készítése v. példányosítás
                 new SpaceShip("G23", "teher", false, 1000),
                 new SpaceShip("X55", "teher", true, 3500),
                 new SpaceShip("H67", "teher", false, 21000)
         };
+
+        // default konstruktor (ő végzi az objektum példányosítását) = bemeneteli paraméter nélküli ("üres") konstruktor
+        // default konstruktor hívása
+        SpaceShip ship4 = new SpaceShip();
 
         int sum = 0;
         for (int i = 0; i < spaceShips.length; i++) {
