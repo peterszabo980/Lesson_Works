@@ -54,9 +54,6 @@ public class Ora20220321_07_HW {
                 break;
             }
         }
-
-
-
         return voltEMelegebb;
     }
 }

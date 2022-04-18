@@ -1,10 +1,11 @@
 package hu.progmatic.LW_20220323;
 
 public class Main {
+
     public static void main(String[] args) {
-/*
         int[] numbers = {2, 1, -4, 3};
     }
+    //a metódus feje = a metódus szignatúrája
 
     public static void change(int[] numbers) {
         if (numbers.length > 1) {
@@ -21,27 +22,29 @@ public class Main {
 
         for (int i = 0; i < array.length; i++) {
             int j = array[i];
-            sum += array[i];
+            sum += j;
         }
         return sum;
 
-        for (int elem: array) {
-            sum += elem
+        /* FOREACH
+        for (int elem : array) {
+            sum += elem;
         }
         return sum;
+         */
     }
 
     public static int sumArrayDuble(int[][] matrix) {
         int sum = 0;
 
         for (int i = 0; i < matrix.length; i++) {
+            int[] array = matrix[i];
             for (int j = 0; j < matrix[i].length; j++) {
                 sum += matrix[i][j];
             }
         }
-        */
+
+        return sum;
 
     }
-
-
 }
